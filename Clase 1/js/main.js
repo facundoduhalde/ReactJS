@@ -1,1 +1,5 @@
-console.log("Hola Mundo");
+let nombreContacto = document.getElementById("inputName")
+
+const handleClick = () => {
+        alert(nombreContacto.value);  
+    }
